@@ -64,7 +64,7 @@ export default class extends Vue {
   /*---Data Start---*/
   @Prop({ default: "" }) public prop: any;
   private countDownCom: any = null;
-  private title: string = "最新微信群";
+  private title: string = "";
   private titleOrg: string = "";
   private show: boolean = false;
   private showUrl: string = "";

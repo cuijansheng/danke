@@ -29,8 +29,8 @@
         <van-tab style="text-align: center; margin-top: 20px" title="北京房东群">
 
 
-          <van-image class="img-box"></van-image>
-                    <div class="txtx-box">          暂未开放</div>
+          <van-image :src="require('../assets/fangdongdemo.jpg')" class="img-box"></van-image>
+                    <div class="txtx-box">为防止部分偏激房东与租客给对方生活造成不便，房东群与住户群暂不互相公开！待维权结束后逐渐开放，多谢谅解！</div>
           <!-- <van-skeleton title :row="3" /> -->
           <!-- <van-skeleton title :row="3" /> -->
         </van-tab>
@@ -260,6 +260,7 @@ export default class extends Vue {
 
 .txtx-box{
   margin-top: 20px;
+  padding: 0 20px;
   color: red;
 }
 </style>
