@@ -89,7 +89,7 @@ export default class extends Vue {
     },
     {
       name: "朝阳",
-      url: "https://single.pplu.vip/chaoyang.png",
+      url: "https://single.pplu.vip/chanyang.png",
     },
     {
       name: "丰台",
