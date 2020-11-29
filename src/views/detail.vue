@@ -113,11 +113,11 @@ export default class extends Vue {
     },
     {
       name: "东城",
-      url: "https://single.pplu.vip/xicheng.png",
+      url: "https://single.pplu.vip/dongcheng.png",
     },
     {
       name: "西城",
-      url: "https://single.pplu.vip/tongzhou.png",
+      url: "https://single.pplu.vip/xicheng.png",
     },
     {
       name: "海淀",
